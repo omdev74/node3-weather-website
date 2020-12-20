@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="icon" href="/img/weather1.png">
+    
+
+
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        {{!-- header.hbs loaded --}}
+
+        <p>
+            use this site to get ur weathers
+        </p>
+
+        <form>
+            <input type="text" placeholder="Location">
+            <button>Search</button>
+        </form> 
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+        <p id="message-3">
+            <img id="icon" src="">
+        </p>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+    
+</body>
+
+</html>

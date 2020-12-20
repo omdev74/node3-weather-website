@@ -8,7 +8,6 @@ const icon = document.querySelector('#icon');
 
 // meassageOne.textContent="for javascript";
 
-
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault();//prevents default page refreshing behviour
     console.log('testing')

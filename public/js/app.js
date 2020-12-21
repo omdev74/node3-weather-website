@@ -16,7 +16,7 @@ weatherForm.addEventListener('submit', (e) => {
     meassageTwo.textContent = "";
     icon.src = "";
 
-    fetch("http://localhost:3000/weather?address="+locations).then((response) => {
+    fetch("/weather?address="+locations).then((response) => {
         
         response.json().then((data) => {
             if (data.errorMessage) {

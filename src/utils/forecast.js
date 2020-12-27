@@ -20,7 +20,8 @@ const forecast = (lat,long,callback)=>{
             temprature:body.current.temperature,
             feelsLike:body.current.feelslike,
             body,
-            icon: body.current.weather_icons[0]
+            icon: body.current.weather_icons[0],
+            humidity: body.current.humidity
         });
         }
         

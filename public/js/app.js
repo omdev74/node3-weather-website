@@ -28,7 +28,7 @@ weatherForm.addEventListener('submit', (e) => {
                 console.log(data);
                 console.log(data.fdata);    
                 meassageOne.textContent = "Location: "+data.location ;
-                meassageTwo.innerHTML = "Description:" + data.fdata.description + "<br>Temprature: " + data.fdata.temprature +"<br>FeelsLike: "+data.fdata.feelsLike;
+                meassageTwo.innerHTML = "Description:" + data.fdata.description + "<br>Temprature: " + data.fdata.temprature +"<br>FeelsLike: "+data.fdata.feelsLike+"<br>Humidity: "+data.fdata.humidity;
                 icon.src = data.fdata.icon;
                 icon.style = "  ";
 

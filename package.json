@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node src/app.js"
+    "start": "node src/app.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,8 @@
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "postman-request": "^2.88.1-postman.26"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
